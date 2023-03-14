@@ -1,6 +1,5 @@
 const root = require('../root')
 const info = require('./conexao/dados')
-console.log(root.control + '\\Control')
 const Control = require(root.control + '\\control')
 const db = require(root.conexao+"\\dados")
 const prompt = require('prompt-sync')(
